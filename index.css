@@ -1,0 +1,327 @@
+
+*{
+    margin: 0%;
+    font-family: 'Caveat', cursive;
+}
+
+#home{
+    width: 100%;
+}
+
+#navbar{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    position: fixed;   
+    display: flex;
+}
+
+.nav-logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 250px;   
+}
+
+.nav-logo img{
+    width: 150px;
+    height: 150px;   
+}
+
+.logo-head{
+    width: 300px;
+    height: 80px;
+    margin: 50px 0px 0px 30px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #FFF899;
+  
+}
+/* .oo{
+    color: black;
+} */
+
+.nav-content{
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+   
+}
+
+.listitem{
+    display: inline-block;
+    list-style: none; 
+    margin: 10px 25px;
+    font-size: 20px;
+    color: yellow;
+}
+
+
+
+#container1{
+    width: 100%;
+    /* background-color: rgb(39, 40, 40); */
+    background-color: rgb(2, 0, 0);
+}
+
+.container{
+    padding-top: 30px;
+    
+}
+
+.head1{
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: 400;
+   
+}
+
+.menu-div{
+    width: 250px;
+    height: 500px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+} 
+
+.menu-div img{
+    width: 100%;
+}
+
+.menu-div:hover{
+   background-color: rgb(251, 240, 160); 
+}
+
+#menu1{
+    display: flex;
+    padding: 20px 200px;
+    justify-content: space-between;
+}
+
+.download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.download:hover{
+    background-color: red;
+}
+
+#main{
+    background-color: #FFF899;
+    color: black;
+}
+
+
+
+.one{
+    display: inline-block;
+    margin: 30px 10px;
+}
+.one i{
+    font-size: 30px;
+    color: black;
+}
+.one i:hover{
+    color: rgb(20, 18, 18);
+    animation: shake .2s infinite;
+}
+
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
+.nav-logo1 img{
+    width: 150px;
+    height: 150px;
+    margin-left: 47%;
+    margin-top: 50px;
+}
+
+#last{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+}
+
+#center1{
+    text-align: center; 
+}
+
+.input1{
+    margin-top: 70px;
+}
+
+.input1 a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 50px; 
+}
+
+#texts{
+    width: 600px;
+    height: 500px;
+    padding-top: 250px;
+    padding-left: 150px;
+}
+
+.download1{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+    font-weight: bold;
+     width: 200px; 
+}
+
+
+#About1{
+    padding-top: 150px;
+  display: flex;
+  background-color: rgb(39, 40, 40);
+  color: white; 
+}
+
+#img20{
+    display: flex;
+    margin-left: 10px;
+}
+
+#img20 h3{
+    padding: 15px;
+}
+
+.chef2{
+    padding: 20px 20px 0px 20px;
+}
+
+/* order section */
+#balance{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(1, 1, 0);
+}
+#order-main{
+    width: 100%;
+    height: 550px;
+    background-color: #ffd500;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    display: flex;
+     background-image: url(https://redlineburgers.com/wp-content/uploads/2017/01/background-burgers-home-top.jpg);
+    background-size: cover;
+} 
+/* .add-order{
+    width: 300px;
+    height: 377px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-top: 60px;
+    
+    
+    
+}
+.payment{
+    width: 450px;
+    height: 250px;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 140px;
+    border-radius: 10px;
+}
+.order-details{
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    margin-left: 120px;
+    border-radius: 10px;
+    margin-right: 80px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 20px;
+    
+} */
+.sree{
+    width: 400px;
+    height: 500px;
+    background-color: #FFF899;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+.sree-head{
+    width: 100%;
+    height: 50px;
+    background-color: #ffd500;
+    text-align: center;
+    border-radius: 10px;
+}
+#img-burger{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 0px 30px;
+}
+#input1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+.inp{
+    width: 30px;
+    height: 20px;
+    font-size: 20px;
+}
+.btn2{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+.head-{
+    margin-left: 160px;
+}
+.payment{
+    display: flex;
+    margin: 30px 10px 0px 20px;
+}
+.payment-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.icon2{
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    margin-top: -5px;
+    padding-top: 10px;
+}
+.icon2:hover{
+    background-color: orange;
+}
